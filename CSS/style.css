@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+   font-family: Noto Kufi Arabic;
+  }
+  
+  a {
+    text-decoration: none;
+    color:#000000;
+  }
+ 
+  
+  ul {
+    list-style: none;
+ 
+  }
+  
+  /* Header Start */
+header  {
+  height: 100vh;
+  background-color:grey; 
+
+}
+ .navbar {
+  background-color:#500d0d;
+  border-bottom: 3px solid #b18080; 
+  position: fixed;
+  z-index: 9999;
+  width:100%;
+  padding: 1.5rem 2rem ;
+
+}
+#home #logo{
+  font-weight: 800;
+  font-size: 50px;
+}
+ .navbar nav{
+  display: flex;
+  margin:auto;
+  justify-content:space-between;
+  align-items:center;
+  max-width: 1100px;
+
+}
+
+
+ .navbar nav ul{
+  display: flex;
+  justify-content:space-center;
+  align-items:flex-start;
+
+}
+ .navbar nav ul a{
+margin:0 15px;
+font-weight: 600;
+
+}
+
+.header-content{
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  max-width: 1100px;
+  margin: auto;
+  height: 100%;
+  align-items: center;
+
+  padding: 5rem 2rem;
+}
+.header-content img{
+max-width: 450px;
+border-radius: 100px;
+}
+.header-text p{
+  font-size: 24px;
+  font-weight: 500;
+}
+.header-text h3{
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  
+  
+  
+
+  #skills .skills {
+    background: rgb(40, 103, 175);
+    padding: 5rem 2rem;
+  }
+  
+  #skills  .title h3 {
+    color: #161618;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  #skills .title p {
+    color: #9b7474;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  #skills .title {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  #skills .skills-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #skills .skills-items .skills-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+  }
+  
+  #skills .skills-items .skills-item img {
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 80%;
+  }
+  
+   #skills .skills-items .skills-item h3 {
+    color: #383848;
+    border-bottom: 1px dashed #b63636;
+    padding-bottom: 10px;
+    position: relative;
+  }
+  
+  #skills .skills-items .skills-item p {
+    margin-top: 10px;
+  }
+  
+   .btn-menu {
+    display: block;
+    height: 40px;
+    margin: auto;
+    border: none;
+    margin-top: 30px;
+    background: #e6d9bd;
+  }
+  #contact {
+    background: #88aabe;
+    padding: 5rem ;
+  }
+  #contact .container {
+    max-width: 900px;
+  }
+  #contact .contact-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #contact .contact-info {
+    width: 50%;
+    margin: 30px 0;
+  }
+  #contact .contact-info h3 {
+    font-size: 40px;
+    color: #08085e;
+    margin-bottom: 10px;
+  }
+  #contact .contact-info p {
+    color: #000000;
+    font-weight: 400;
+  }
+  form {
+    width: 50%;
+  }
+  form input,
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 20px 15px;
+    margin: 20px 0;
+    border: none;
+    background-color: #e3e2dd;
+    
+  }
+  
+  #footer {
+    background-color: #383848;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 18 px;
+  }
+  a:hover
+  {
+    color: red;
+  }
